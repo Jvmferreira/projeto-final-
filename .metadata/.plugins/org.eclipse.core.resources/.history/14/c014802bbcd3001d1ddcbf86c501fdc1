@@ -1,0 +1,18 @@
+package servico;
+
+import dao.UsuarioDAO;
+import modelo.Usuario;
+
+public class LoginServico {
+  public boolean verificarUsuario( Usuario usuario) {
+	  UsuarioDAO dao = new UsuarioDAO();
+	  
+	  dao.validarLogin(usuario);
+	  
+	  if(usuario.getUsuario().equals("admin")&& usuario.getSenha().equals("12345")) {
+		  return true;
+	  }else {
+	return false;
+  }
+  }
+}

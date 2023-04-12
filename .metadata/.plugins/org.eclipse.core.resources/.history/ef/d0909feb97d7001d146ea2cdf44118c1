@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="ISO-8859-1">
+		<title>Projeto Final - Web + Banco de Dados</title>
+		
+		<link href="css/estilo.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="pagina">
+			<div id="barra">
+				<div id="logo"><img src="images/logo de anime.png" height="100px"></div>
+				<div id="menu">Login</div>
+			</div>
+			<div id="conteudo">
+				<table>
+				<tr>
+				 <td>USUARIO</td>
+        <td>NOME</td>
+        <td>EMAIL</td>
+        </tr>
+		</table>
+			</div>
+			<div id="rodape">Copyright &copy 2023</div>
+		</div>
+	</body>
+</html>

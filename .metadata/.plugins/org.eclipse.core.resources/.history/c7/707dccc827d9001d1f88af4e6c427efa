@@ -1,0 +1,58 @@
+
+#pagina {
+	background-color: white;
+}
+
+#barra {
+	display: flex;
+	width: 100%;
+	background-color: #ff8040;
+}
+
+#logo {
+	display: flex;
+	width: 20%;
+}
+
+#menu {
+	display: flex;
+	width: 80%;
+	background-color: #ff8040;
+	color: white;
+	font-family: Arial;
+	align-items: center;
+	justify-content: right;
+	margin-right: 20px;
+}
+
+#conteudo {
+	display: flex;
+	height: 700px;
+	background-color: rgb(128, 255, 255);
+}
+
+#rodape {
+	display: flex;
+	height: 100px;
+	background-color: rgb(255, 128, 64);
+	color: white;
+	justify-content: center;
+	font-family: Arial;
+	font-weight: bold;
+	align-items: center;	
+}
+table {
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+table {
+    width: 30%;
+}
+
+th {
+    height: 50px;
+}
+

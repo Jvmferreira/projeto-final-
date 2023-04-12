@@ -1,0 +1,13 @@
+package servico;
+
+import modelo.Usuario;
+
+public class LoginServico {
+  public boolean verificarUsuario( Usuario usuario) {
+	  if(usuario.getUsuario().equals("admin")&& usuario.getSenha().equals("12345")) {
+		  return true;
+	  }else {
+	return false;
+  }
+  }
+}

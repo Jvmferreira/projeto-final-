@@ -1,0 +1,161 @@
+
+#pagina {
+	background-color: white;
+}
+
+#barra {
+	display: flex;
+	width: 100%;
+	background-color: #044384;
+}
+
+#logo {
+	display: flex;
+	width: 20%;
+}
+
+#menu {
+	display: flex;
+	width: 80%;
+	background-color: #044384;
+	color: white;
+	font-family: Arial;
+	align-items: center;
+	justify-content: right;
+	margin-right: 20px;
+}
+
+#conteudo {
+	display: flex;
+	height: 700px;
+	background-color: gray;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#rodape {
+	display: flex;
+	height: 100px;
+	background-color: #044384;
+	color: white;
+	justify-content: center;
+	font-family: Arial;
+	font-weight: bold;
+	align-items: center;	
+}
+
+.login{
+	display: flex;
+	flex-direction: column;
+	width: 20%;
+	height: 30%;
+	background-color: white;
+	border: 10px solid #044384;
+	padding: 20px;
+}
+
+.barra{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+
+.campo{
+	font-family: Arial;
+	font-size: 24px;
+}
+
+.entrada{
+	font-family: Arial;
+	font-size: 24px;
+	width: 150px;	
+}
+
+.botao{
+	border: none;
+	background-color: #008000;
+	color: white;
+	padding: 20px 40px;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.div-entrada{
+	display: flex;
+	justify-content: center;
+	margin: 10px;
+}
+
+a:link {
+  color:white;
+  text-decoration:none;
+}
+
+a:visited {
+  color:white;
+  text-decoration:none;
+}
+
+a:hover {
+  color:orange;
+  text-decoration:underline;
+}
+
+a:active {
+  color:white;
+  text-decoration:underline;
+  background-color:#000000;
+}
+
+.tabela {
+	width: 30%;
+	border: 6px solid white;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.tabela-titulo {
+	height: 60px;
+	font-family: Arial;
+	font-size: 22px;
+	font-weight: bold;
+	color: white;
+	align-items: center;
+}
+
+.tabela-linha {
+	font-family: Arial;
+	font-size: 16px;
+	color: white;
+}
+
+.titulo {
+	display: flex;
+	font-family: Arial;
+	font-size: 36px;
+	color: white;
+}
+
+.linha-cadastro {
+	display: flex;
+	font-family: Arial;
+	font-size: 20px;
+	color: white;	
+}
+
+.label-cadastro {
+	font-family: Arial;
+	width: 90px;
+}
+
+.entrada-cadastro {
+	color: white;	
+}
+
+
+
+
